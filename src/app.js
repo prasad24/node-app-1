@@ -16,6 +16,6 @@ baseRouter
 
 app.get('/', baseRouter);
 
-app.listen(3000, function() {
+app.listen(port, function() {
     console.log('Listening on port ' + port);
 });
